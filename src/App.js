@@ -1,11 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Detail from './components/Detail';
+import UserList from './components/UserList';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<UserList/>}/>
+        <Route path="/detail/:id" element={<Detail/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
