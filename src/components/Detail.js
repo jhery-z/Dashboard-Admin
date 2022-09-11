@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
  
 const Detail = () => {
@@ -7,7 +7,6 @@ const Detail = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const navigate = useNavigate();
   const { id } = useParams();
  
   useEffect(() => {

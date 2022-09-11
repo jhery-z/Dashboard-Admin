@@ -1,6 +1,6 @@
 import React from 'react'
-// import Logo from './assets/bootstrap-logo.png'
-// import Logo from '../bootstrap-logo.png';
+
+
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-                {/* <img src={Logo} alt width={30} height={24} /> */}
+                <img src="./assets/bootstrap-logo.png" alt="logo" width={30} height={24} />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
@@ -16,13 +16,13 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                  <a className="nav-link active" aria-current="page" href="userlist">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">New Users</a>
+                  <a className="nav-link" href="#userlist">New Users</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Sales</a>
+                  <a className="nav-link" href="#userlist">Sales</a>
                 </li>
               </ul>
               <form className="d-flex">
