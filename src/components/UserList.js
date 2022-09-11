@@ -20,7 +20,7 @@ const UserList = () => {
     <div className="columns mt-5 is-centered">
       <div className="column is-half">
         
-        <table className="table is-striped is-fullwidth">
+        <table className="table table-striped table-responsive">
           <thead>
             <tr>
               <th>No</th>
