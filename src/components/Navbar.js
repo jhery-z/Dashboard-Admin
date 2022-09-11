@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from '../assets/bootstrap-logo.png'
+// import { Logo } from '../assets/bootstrap-logo.png'
 
 
 const Navbar = () => {
@@ -8,7 +8,8 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-                <Image src={Logo} alt="logo" width={30} height={24} />
+                {/* <Image src={Logo} alt="logo" width={30} height={24} /> */}
+                Dashboard
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
@@ -19,10 +20,10 @@ const Navbar = () => {
                   <a className="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#userlist">New Users</a>
+                  <a className="nav-link" href="/">New Users</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#userlist">Sales</a>
+                  <a className="nav-link" href="/">Sales</a>
                 </li>
               </ul>
               <form className="d-flex">
