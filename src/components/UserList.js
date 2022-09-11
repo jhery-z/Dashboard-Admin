@@ -19,8 +19,8 @@ const UserList = () => {
   return (
     <div className="container">
       <div className="row">
-        
-        <table className="table table-striped table-responsive-sm">
+      <div className="col-lg-12 col-12 table-responsive">  
+        <table className="table table-striped ">
           <thead>
             <tr>
               <th>No</th>
@@ -49,7 +49,9 @@ const UserList = () => {
               </tr>
             ))}
           </tbody>
-        </table>
+
+      </div>
+      </div>
       </div>
     </div>
   );
