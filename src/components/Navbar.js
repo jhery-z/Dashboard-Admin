@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from '../assets/bootstrap-logo.png'
+import Logo  from '../assets/bootstrap-logo.png'
 
 
 const Navbar = () => {
