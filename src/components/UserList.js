@@ -49,12 +49,11 @@ const UserList = () => {
               </tr>
             ))}
           </tbody>
-
-      </div>
-      </div>
+          </table>
+        </div>
       </div>
     </div>
-  );
+      );
 };
  
 export default UserList;
